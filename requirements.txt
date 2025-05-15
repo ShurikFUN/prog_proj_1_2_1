@@ -1,0 +1,7 @@
+!pip install praw
+!pip install pandas
+!pip install datetime
+!pip install seaborn
+!pip install mathplotlib
+!pip install stop_words
+!pip install wordcloud
