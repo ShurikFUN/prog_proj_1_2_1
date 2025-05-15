@@ -1,5 +1,4 @@
 # python -m streamlit run /Users/shurikfun/Documents/PyWorkITMO/projects/reddit_analysis/notebooks/dashboard/app.py
-from pydoc import describe
 
 import streamlit as st
 import praw
@@ -11,7 +10,6 @@ from matplotlib import pyplot as plt
 from stop_words import get_stop_words #nltk не хотел устанавливать stop-words
 from streamlit import session_state
 from wordcloud import WordCloud
-import io
 
 if "page" not in st.session_state:
     st.session_state.page = "Главная"
